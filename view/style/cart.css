@@ -1,0 +1,28 @@
+/* CArt section */
+.cart-sec{
+    height: 400px;
+    width: 300px;
+    background-color: grey;
+    position: absolute;
+    top: 7rem;
+    right: 0;
+    display: none;
+  }
+  .show-cart{
+    display: block;
+  }
+  .ind-cart{
+    padding: .5rem 1rem;  
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .total-price{
+    
+  }
+
+  .checkbtn{
+    float: right;
+    /* background: red; */
+    margin-right: 0.8rem;
+  }

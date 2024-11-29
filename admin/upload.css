@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://www.goldstarshoes.com/mediathumb/large/media/g904.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.brand h5 {
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+    font-family: 'Comic Neue';
+    color: white;
+    text-decoration: none;
+  } 
+
+
+.upload{
+    margin: 3rem auto;
+    padding: 1rem;
+    width: 30%;
+    height: 55%;
+    background-color: rgba(0,0,0,.4);
+    border-radius: 0.5rem;
+}
+
+h3{
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+
+.inp-row{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    /* column-gap: 1rem; */
+}
+.start{
+    align-items: flex-start;
+}
+.inp-group{
+    margin: 1rem 0;
+    width: 50%;
+}
+.inp-label{
+    margin: 0.2rem;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+input{
+    width: 150%;
+    height: 35px;
+    padding: 0 .5rem;
+    border: 1px solid #dcdcdc;
+}
+input[type="file"]{
+    border: none;
+}
+
+.submit-btn{
+    padding: .2rem 0.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+
+}

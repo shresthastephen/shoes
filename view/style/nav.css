@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+  /* Info Section */
+  .info{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(88, 80, 80);
+    height: 50px;
+
+  }
+
+  .info a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  .info li{
+    display: inline-block;
+    padding: 0.8rem 0;
+    align-items: center;
+    
+  }
+
+  .info ul{
+    padding: 0 0rem;
+  }
+
+  .left-info li:first-child {
+    border-right: 2px solid black;
+    padding: 0 0.5rem;
+    margin: 0px 1rem;
+    font-size: 20px;
+  }
+
+  .left-info li{
+    font-size: 18px;
+    /* padding: 0 0.3rem; */
+  }
+
+  .right-info ul{
+    padding: 0 1rem;
+  }
+
+  .right-info a{
+    padding: 0 0.3rem;
+    font-size: 18px;
+    font-weight: bold;
+
+  }
+    
+  
+  /* Nav Section */
+  
+  label.branding {
+    font-size: 30px;
+    font-weight: bolder;
+    /* color: white; */
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+    font-family: 'Comic Neue';
+  }
+
+  span{
+    color: white;
+    
+
+  }
+
+  .branding a:hover {
+    color: white;
+    
+  }
+
+  span:hover{
+    color: black;
+  }
+  
+  nav {
+    height: 70px;
+    width: 100%;
+    background: grey;
+    margin-bottom: 1rem;
+  }
+  
+  nav ul {
+    float: right;
+    margin-right: 0rem;
+    line-height: 65px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 0.2rem;
+    align-items: center;
+    font-size: 18px;
+  
+  }
+  
+  nav a {
+    color: black;
+    padding: 7px 8px;
+    text-decoration: none;
+  
+  }
+
+
+
+  .cf {
+    overflow: hidden;
+   
+  }
+
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }

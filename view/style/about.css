@@ -1,0 +1,49 @@
+.head{
+    width: 15%;
+    margin: auto;
+}
+
+
+.head h2{
+    text-align: center;
+    font-size: 2.5rem ;
+    /* border-bottom: 1px solid black ; */
+    /* width: 5rem; */
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.top-section{
+    display: flex;
+    /* margin: 0 2rem; */
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5rem;
+    
+
+}
+
+.top-left{
+    margin-top: 2.5rem;
+    /* display: flex; */
+    max-width: 40%;
+
+}
+
+.top-right{
+    display: flex;
+    height: 60vh;
+
+}
+
+.top-right img{
+    width: 130%;
+    height: 90%;
+}
+
+
+/* .second-section{
+    display: flex;
+    width: 60%;
+    margin: auto;
+} */
